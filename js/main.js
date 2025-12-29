@@ -138,12 +138,6 @@ function renderFeed() {
                         </div>
                         <div class="timestamp">${item.date}</div>
                     </div>
-                    <div class="side-actions">
-                        <a href="${item.video}" download="video_${index}.mp4" class="action-item">
-                            <i class="fas fa-download"></i>
-                            <span>Save</span>
-                        </a>
-                    </div>
                 </div>
                 <div class="progress-container">
                     <div class="progress-bar"></div>
@@ -160,12 +154,6 @@ function renderFeed() {
                             <i class="fas fa-link"></i> 
                             <a href="${item.url || '#'}" target="_blank" style="color: inherit; text-decoration: none;">Source Original</a>
                         </div>
-                    </div>
-                    <div class="side-actions">
-                        <a href="${item.url || item.foto || item}" download="photo_${index}.jpg" class="action-item">
-                            <i class="fas fa-download"></i>
-                            <span>Save</span>
-                        </a>
                     </div>
                 </div>
             </div>`;
