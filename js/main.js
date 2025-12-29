@@ -134,7 +134,7 @@ function renderFeed() {
                         <h3>@2mathewww</h3>
                         <div class="meta-link">
                             <i class="${item.source?.toLowerCase() === 'tiktok' ? 'fab fa-tiktok' : (item.source?.toLowerCase() === 'instagram' ? 'fab fa-instagram' : 'fas fa-link')}"></i> 
-                            <a href="${item.url}" target="_blank" style="color: inherit; text-decoration: none;">Source</a>
+                            <a href="${item.url}" target="_blank" style="color: inherit; text-decoration: none;">Source Original</a>
                         </div>
                         <div class="timestamp">${item.date}</div>
                     </div>
@@ -158,7 +158,7 @@ function renderFeed() {
                         <h3>@2mathewww</h3>
                         <div class="meta-link">
                             <i class="fas fa-link"></i> 
-                            <a href="${item.url || '#'}" target="_blank" style="color: inherit; text-decoration: none;">Source</a>
+                            <a href="${item.url || '#'}" target="_blank" style="color: inherit; text-decoration: none;">Source Original</a>
                         </div>
                     </div>
                     <div class="side-actions">
